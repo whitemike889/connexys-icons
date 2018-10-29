@@ -15,7 +15,13 @@ npm run build
 
 Your fonts will be built to the ./fonts directory. Just open the `index.html` to view the demo.
 
+## Pushing your new icons
 
+```bash
+git add .
+git commit -a -m "feat(icon): Add new icons"
+git push
+```
 
 ## Requesting new icons
 
