@@ -1,0 +1,52 @@
+@font-face {
+    font-family: "ConnexysIcons";
+    src: url("./ConnexysIcons.eot?2c1120f8778a97dcdc45f65fb8a53754?#iefix") format("embedded-opentype"),
+url("./ConnexysIcons.woff2?2c1120f8778a97dcdc45f65fb8a53754") format("woff2"),
+url("./ConnexysIcons.woff?2c1120f8778a97dcdc45f65fb8a53754") format("woff"),
+url("./ConnexysIcons.ttf?2c1120f8778a97dcdc45f65fb8a53754") format("truetype"),
+url("./ConnexysIcons.svg?2c1120f8778a97dcdc45f65fb8a53754#ConnexysIcons") format("svg");
+}
+
+i {
+    line-height: 1;
+}
+
+i[class*="icon-"]:before {
+    font-family: ConnexysIcons !important;
+    font-style: normal;
+    font-weight: normal !important;
+    vertical-align: middle;
+    speak: none;
+    -webkit-font-smoothing: antialiased;
+}
+
+.icon-browse:before {
+    content: "\f101";
+}
+.icon-campus-events:before {
+    content: "\f102";
+}
+.icon-candidate-search:before {
+    content: "\f103";
+}
+.icon-candidate:before {
+    content: "\f104";
+}
+.icon-compare:before {
+    content: "\f105";
+}
+.icon-job-applications:before {
+    content: "\f106";
+}
+.icon-jobs:before {
+    content: "\f107";
+}
+.icon-proposals:before {
+    content: "\f108";
+}
+.icon-talentpools:before {
+    content: "\f109";
+}
+.icon-workflow:before {
+    content: "\f10a";
+}
